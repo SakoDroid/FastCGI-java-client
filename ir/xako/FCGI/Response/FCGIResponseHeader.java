@@ -1,5 +1,10 @@
 package ir.xako.FCGI.Response;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 class FCGIResponseHeader {
 
     public final int version;

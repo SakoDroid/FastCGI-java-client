@@ -1,6 +1,11 @@
 package ir.xako.FCGI.Request;
 
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIPostBody extends FCGIRequestComponent {
 
     private FCGIPostBody(byte[] data){

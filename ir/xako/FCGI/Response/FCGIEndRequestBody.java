@@ -2,6 +2,11 @@ package ir.xako.FCGI.Response;
 
 import java.io.InputStream;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIEndRequestBody {
 
     private final int appStatus;

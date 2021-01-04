@@ -2,6 +2,11 @@ package ir.xako.FCGI.Request;
 
 import ir.xako.FCGI.Utils.Configs;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIRequestHeader extends FCGIRequestComponent {
 
     private final int version;

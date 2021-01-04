@@ -6,6 +6,13 @@ import ir.xako.FCGI.Response.FCGIResponse;
 import ir.xako.FCGI.Utils.*;
 import java.util.Map;
 
+/**
+ * Main FCGIClient class for interacting with the framework.
+ *
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIClient {
 
     private final int reqID;

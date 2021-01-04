@@ -4,6 +4,11 @@ import ir.xako.FCGI.Utils.ComponentNotReadyException;
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 abstract class FCGIRequestComponent {
 
     protected final ByteArrayOutputStream out = new ByteArrayOutputStream();

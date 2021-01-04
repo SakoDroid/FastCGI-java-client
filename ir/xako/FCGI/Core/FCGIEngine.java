@@ -5,6 +5,11 @@ import ir.xako.FCGI.Response.FCGIResponse;
 import java.net.Socket;
 import java.io.*;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIEngine {
 
     private Socket sock;

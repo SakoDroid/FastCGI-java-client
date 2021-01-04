@@ -4,6 +4,11 @@ import ir.xako.FCGI.Utils.Configs;
 
 import java.io.OutputStream;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIRequest {
 
     private final FCGIRequestHeader header;

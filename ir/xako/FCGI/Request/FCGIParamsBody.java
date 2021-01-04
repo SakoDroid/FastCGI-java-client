@@ -2,6 +2,11 @@ package ir.xako.FCGI.Request;
 
 import java.util.Map;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIParamsBody extends FCGIRequestComponent {
 
     public static FCGIParamsBody getInstance(Map<String,String> params){

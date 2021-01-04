@@ -4,6 +4,11 @@ import ir.xako.FCGI.Utils.FCGIConstants;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @author Sako
+ * @since 2021
+ */
+
 public class FCGIResponse {
 
     private FCGIEndRequestBody endRequest;
