@@ -16,7 +16,7 @@ Fist you need to start the FastCGI server. For PHP, you can use PHP-FPM. Then ed
 the address of the FastCGI server and some other configurations. After editing Configs.java you can use the below syntax :
 
         //Post body
-        String content = "name=john&lastname=snow&address=winterfell";
+        byte[] content = "name=john&lastname=snow&address=winterfell".getBytes();
         
         //URI which is sent in the Http header.
         String uri = "/example.php";
